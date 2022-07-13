@@ -1,10 +1,12 @@
 import './App.css';
+import { Container } from '@mui/material';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div >
-     hello
-    </div>
+    <Container className='container'>
+      <Navbar />
+    </Container>
   );
 }
 
